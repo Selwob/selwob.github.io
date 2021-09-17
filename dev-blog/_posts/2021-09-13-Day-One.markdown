@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Day One"
+date:   2021-09-13 20:17:28 +0900
+categories: jekyll dev blog
+---
+
+This is day one. I will keep a diary here of what I do each day towards my goal of becoming a developer.
+
+Today I kind of figured out how to set up a blog using Jekyll and hosted on Github.
+Still very new to Github, and not quite sure exatly how Jekyll and Ruby? are working together.
+However, it seems to work. The tutorial is really not clear, and actually misses a few steps which does not help.

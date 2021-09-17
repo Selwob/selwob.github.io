@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Day Four"
+date:   2021-09-16 18:00 +0900
+categories: jekyll update
+---
+
+Decided to make something and spent about 6 hours making <a href ="https://selwob.github.io/bad_time/">Bad Time</a> inspired from Reddit bad UI battle. Took way too long working out how to link to another Github page, turns out you just need to put hte repository name after the main github pages address. Also took a long time working out how to add jQuery to the page properly. Hopefully it will be much quicker next time.
+
+Also read through <a href = "https://javascript.info/keys-values-entries">keys-values-entries</a>.
+
+Next I need to work out how to properly use Jekyll to make a homepage and work out a better workflow for creating a blog rather than copying the previous day's blog file and manually editing it in the code editor. Jekyll is supposed to do that for me right?

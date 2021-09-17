@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Day Five"
+date:   2021-09-17 18:00 +0900
+categories: jekyll update
+---
+
+Realising just how long it takes to get good at this. What's up with those Bootcamps that claim to be able to get you a job in 3 months from scratch? Today I tried to slow down and understand more. Slow down to speed up. Will have to get a job while studying most likely as this will take a long time. 
+Today was: 
+<a href="https://javascript.info/keys-values-entries">keys-values-entries</a>
+<a href="https://javascript.info/destructuring-assignment">destructuring-assignment</a>
+<a href="https://crocoder.dev/blog/map-filter-reduce-exercises/">map-filter-reduce-exercises</a>
+
+Doing that last one of extra exercises, I really felt I was getting the hang of using them as arrow functions, and better with general syntax. There's lots of small things to watch out for though, why does JS have so many different ways of writing the functions? Will try and do more exercises from different sources as they seem to show things in different ways that help me to understand.
