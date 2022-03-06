@@ -1,5 +1,4 @@
 <!Doctype html>
-
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
@@ -10,20 +9,139 @@
   <meta name="description" content="Homepage">
   <meta name="author" content="samuel bowles">
 
-  <meta property="og:title" content="samuel bowles' Homepage">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://samuel-bowles.github.io">
-  <meta property="og:description" content="samuel bowles' Homepage">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 
 <body>
-  
-  <h1>Portfolio - Samuel Bowles</h1>
-  <ul>
-    <li><a href = "https://samuel-bowles.github.io/blackhawk-snowboards/">Blackhawk Snowboards - WIT Individual Project</a></li>
-    <li><a href = "https://samuel-bowles.github.io/glampia/">Glampia - WIT Group Project</a></li>
-    <li><a href = "https://samuel-bowles.github.io/hotel-website/">Hotel Website</a></li>
-    <li><a href = "https://samuel-bowles.github.io/real_app/">Real App</a></li>
-  </ul>
+<div class="wrapper">
+  <header>
+    <div class="header-inner">
+      <div class="header-block-1">
+        <h1>Samuel William Bowles</h1>
+        <p>Frontend Developer</p>
+      </div>
+      
+      <div class="header-block-2">
+        <p><a href="index.html">EN</a> / <a href="jp/index.html">JP</a></p>
+        <ul class="top-menu">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div> <!-- /.header-inner -->
+  </header>
+
+  <main>
+    <div class="main-inner">
+      <div id="about-me">
+        <div class="item">
+          <h2>About me.</h2>
+          <p class="self-intro">
+            My name is Samuel, I am originally from the UK. I am an aspiring web developer and front end engineer living in Meguro, Tokyo. I have been living in Japan for over ten years with most of that being in Tokyo working as and English teacher and IT support. After Tokyo I moved to Hokkaido for 3 years where I worked at an outdoor apparel and equipment store near to the local ski resorts. Here I completely fell in love with the snow of Hokkaido, snowboarding and the nature of Japan, spending a lot of time hiking the nearby mountains during the summer. As a consequence my personal websites all seem to end up with a snowboarding theme on them. When I'm not snowboarding or playing video games I am perhaps ill advisedly trying to learn how to build a synthesiser in JavaScript. An endeaver which is apparently as much about learning sound engineering as programming. 
+          </p>
+        </div>
+        <p class="self-image item">
+          <img src="assets/images/me.jpg" alt="black and white photo of Samuel taking a photo while hiking with a snowboard.">
+        </p>
+      </div> <!-- /#about-me -->
+      
+      <div class="skills">
+        <h2>Skills.</h2>
+        <ul class="skill-list">
+          <li>
+            <ul>
+              <li class="list-title">Development</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>Python</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="list-title">Tools</li>
+              <li>Git</li>
+              <li>Firebase</li>
+              <li>Wordpress</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="list-title">Personal</li>
+              <li>English</li>
+              <li>Japanese</li>
+              <li>French</li>
+              <li>Snowboarding</li>
+              <li>Piano</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Portfolio.</h2>
+      <div id="portfolio">
+        <div>
+          <a href="https://samuel-bowles.github.io/blackhawk-snowboards/">
+            <p class="title">
+              Blackhawk Snowboards - WIT Individual Project <span>&#8594;</span>
+            </p>
+            <p>
+              <img src="assets/images/cover-1.png" alt="icon of front page of website">
+            </p>
+          </a>
+        </div>
+        <div>
+          <a href="https://samuel-bowles.github.io/glampia/">
+            <p class="title">
+              Glampia - WIT Group Project <span>&#8594;</span>
+            </p>
+            <p>
+              <img src="assets/images/cover-2.png" alt="icon of front page of website">
+            </p>
+          </a>
+        </div>
+        <div>
+          <a href="https://samuel-bowles.github.io/hotel-website/">
+            <p class="title">
+              Hotel Website <span>&#8594;</span>
+            </p>
+            <p>
+              <img src="assets/images/cover-3.png" alt="icon of front page of website">
+            </p>
+          </a>
+        </div>
+        <div>
+          <a href="https://samuel-bowles.github.io/real_app/">
+            <p class="title">
+              Real App <span>&#8594;</span>
+            </p>
+            <p>
+              <img src="assets/images/cover-4.png" alt="icon of front page of website">
+            </p>
+          </a>
+        </div>
+      </div> <!-- /#portfolio -->
+      <div id="contact">
+        <h2>Contact.</h2>
+        <p><span class="sbo lame">wss</span></p>
+        <p><span class="sbo bois">82</span></p>
+        <p class="pdf-link"><a href="/assets/portfolio.pdf">Download</a> a PDF copy of my portfolio.</p>
+      </div> <!-- /#contact -->
+    </div> <!-- /.main-inner -->
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; Samuel William Bowles 2022</p>
+      <p class="github-logo"><a href="https://github.com/samuel-bowles"><img src="assets/images/icons/GitHub-Mark-Light-120px-plus.png" alt="official light theme github logo"></a></p>
+    </div>
+  </footer>
+  </div> <!-- /.wrapper -->
 </body>
 </html>
