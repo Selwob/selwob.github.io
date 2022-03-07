@@ -240,6 +240,18 @@ footer {
     max-height: 2rem;
 }
 
+@media screen and (max-width: 740px) {
+    :lang(ja) .top-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    :lang(ja) .top-menu a {
+        padding: 10px 0;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .header-block-2 p {
         margin-bottom: 20px;
